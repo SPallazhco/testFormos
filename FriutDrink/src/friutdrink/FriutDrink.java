@@ -8,8 +8,8 @@ public class FriutDrink {
         SaveIngredients saveIngredients = new SaveIngredients();
         MakingFruitDrink makingFruitDrink = new MakingFruitDrink();
         while (!salir) {
-            MainMenu menuPrincipal = new MainMenu();
-            int valueOption = menuPrincipal.opcionesMenu();
+            Mains menuPrincipal = new Mains();
+            int valueOption = menuPrincipal.opcionsMenuMain();
             switch (valueOption) {
                 case 1:
                     saveIngredients.IntoIngredients();
