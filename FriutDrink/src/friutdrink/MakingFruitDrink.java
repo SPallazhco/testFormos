@@ -11,16 +11,19 @@ public class MakingFruitDrink {
                     valuesIngredients.setStrawberry(valuesIngredients.getStrawberry() - (50 * 3));
                     valuesIngredients.setIce(valuesIngredients.getIce() - (30 * 3));
                     valuesIngredients.setCondensedMilk(valuesIngredients.getCondensedMilk() - (20 * 3));
+                    valuesIngredients.setSugar(valuesIngredients.getSugar() - (8 * 3));
                     break;
                 case 2:
                     valuesIngredients.setBanana(valuesIngredients.getBanana() - (50 * 3));
                     valuesIngredients.setIce(valuesIngredients.getIce() - (30 * 3));
                     valuesIngredients.setCondensedMilk(valuesIngredients.getCondensedMilk() - (20 * 3));
+                    valuesIngredients.setSugar(valuesIngredients.getSugar() - (8 * 3));
                     break;
                 case 3:
                     valuesIngredients.setMango(valuesIngredients.getMango() - (50 * 3));
                     valuesIngredients.setIce(valuesIngredients.getIce() - (30 * 3));
                     valuesIngredients.setCondensedMilk(valuesIngredients.getCondensedMilk() - (20 * 3));
+                    valuesIngredients.setSugar(valuesIngredients.getSugar() - (8 * 3));
                     break;
 
             }
